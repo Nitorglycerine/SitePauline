@@ -2,6 +2,7 @@
 <html>
 <head>
 	<link href="css/style.css" rel="stylesheet">
+	<script  src="src/main.js" defer></script>
 </head>
 <body>
 	<nav>
@@ -166,7 +167,11 @@
 			Nietzsche, charmé par sa sagesse unique,
 			La laisse régner, laissant son esprit domestiqué.</p>
 		<img class="gif" src="res/heart.gif" alt=""  >
-		<img class="dessin" src="res/Enculade.png" alt=""   />
+		<div class="cadreDessin">
+			<img class="dessin" src="res/Enculade.png" alt=""   />
+			<img class="cadre" src="res/cadre.png" alt="">
+		</div>
+		
 	</section>
 
 	
@@ -177,7 +182,12 @@
 	</footer>
 
 
+<nav class="moving">
+	<canvas class="canvasWalking" height="200">
 
+	</canvas>
+	
+</nav>
 
 
 </body>
